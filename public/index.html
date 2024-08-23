@@ -1,11 +1,138 @@
 <!DOCTYPE html>
-<html>
+<html class="">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./css/styles.css" rel="stylesheet" />
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+
+  <body class="bg-gray-900">
+    <header
+      class="bg-gray-700 text-black border border-t-0 border-l-0 border-r-0 border-b-2 border-yellow-500"
+    >
+      <nav
+        class="flex justify-between items-center box-content h-20 w-[92%] mx-auto"
+      >
+        <div id="logo" class="text-2xl"><a href="">LOGO</a></div>
+        <div class="">
+          <ul class="flex justify-center items-center gap-[3vw] pl-10">
+            <li><a class="hover:text-white" href="#about">ABOUT</a></li>
+            <li><a class="hover:text-white" href="#projects">PROJECTS</a></li>
+            <li><a class="hover:text-white" href="#certificates">CERTIFICATES</a></li>
+            <li><a class="hover:text-white" href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+    </header>
+    <div class="">
+      <div id="box-1" class="pt-24 pl-16">
+        <div id="about"
+          class="text-white border-2 w-[70%] h-64 bg-gray-700 border-yellow-600 rounded-xl"
+        >
+          <h2 class="pl-14 pt-14">ABOUT</h2>
+          <p class="pl-20 pt-5 w-[95%]">
+            JavaScript is a cross-platform, object-oriented scripting language.
+            It is a small and lightweight language. Inside a host environment
+            (for example, a web browser), JavaScript can be connected to the
+            objects of its environment to provide programmatic control over
+            them.
+          </p>
+        </div>
+      </div>
+      <div id="box-2" class="flex justify-end pr-16 pt-24">
+        <div id="projects"
+          class="text-white border-2 w-[70%] h-72 bg-gray-700 border-yellow-600 rounded-xl"
+        >
+          <h2 class="pl-5 pt-6">PROJECTS</h2>
+          <div class="flex pl-40 pt-6 w-[92%] gap-10" id="project-1 ">
+            <a class="" href="">
+              <img
+                class="border-2 rounded-xl border-yellow-500  transition duration-300 ease-in-out hover:scale-110"
+                src="images/survey-form.png"
+                alt=""
+              />
+              <h1 class="flex justify-center pt-3">survey-form</h1>
+            </a>
+            <a class="" href="">
+              <img
+                class="border-2 rounded-xl border-yellow-500  transition duration-300 ease-in-out hover:scale-110"
+                src="images/tribute-page.png"
+                alt=""
+              />
+              <h1 class="flex justify-center pt-3">tribute-page</h1>
+            </a>
+            <a class="" href="">
+              <img
+              
+                class="border-2 rounded-xl border-yellow-500  transition duration-300 ease-in-out hover:scale-110"
+                src="images/technical-documeatio.png"
+                alt=""
+              />
+              <h1 class="flex justify-center pt-3">technical-documantation</h1>
+            </a>
+            <a class="" href="">
+              <img
+                class="border-2 rounded-xl border-yellow-500  transition duration-300 ease-in-out hover:scale-110"
+                src="images/product-page.png"
+                alt=""
+              />
+              <h1 class="flex justify-center pt-3">product-page</h1>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="box-3" class="pt-24 pl-16">
+        <div id="certificates"
+          class="text-white border-2 w-[70%] h-72 bg-gray-700 border-yellow-600 rounded-xl"
+        >
+          <h2 class="pl-5 pt-6">CERTIFICATES</h2>
+          <div class="flex pl-40 pt-1 w-[70%]" id="project-1 ">
+            <a class="" href="">
+              <img
+                class=" border-2 rounded-xl border-yellow-500 max-w-xs transition duration-300 ease-in-out hover:scale-110"
+                src="images/certifica.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="contact">
+      <div id="box-1" class="pt-24">
+        <div 
+          class="text-white h-60 bg-gray-700 border border-t-2 border-l-0 border-r-0 border-b-0 border-yellow-500"
+        >
+          <div class="flex justify-center pt-5 gap-10">
+            <div class="">
+              <h1>Name</h1>
+              <input
+                type="text"
+                class="rounded-md  text-black  "
+              />
+            </div>
+            <div class="">
+              <h1>Surname</h1>
+              <input
+                type="text"
+                class="rounded-md  text-black  "
+              />
+            </div>
+          </div>
+          <div class="flex justify-center pt-8">
+            <div>
+              <h1>E-mail</h1>
+              <input
+                type="email"
+                class="rounded-md  text-black  "
+              />
+            </div>
+          </div>
+          <div class="flex justify-center pt-5">
+            <button class="bg-red-900 px-3 py-0.5 rounded-md hover:bg-red-500">
+            Submit
+          </button></div>
+          
+      </div>
+    </footer>
   </body>
 </html>
